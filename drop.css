@@ -1,0 +1,41 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./image/hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont
+{
+   background-color: rgba(255, 0, 0, 0.534);
+}
+#nav
+{
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+}
+#nav li a
+{
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    color: black;
+}
+#menu
+{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+#drop:hover #menu
+{
+display: block;
+}
+#nav li a:hover
+{
+ background-color: blueviolet;
+ color: yellow;
+}
